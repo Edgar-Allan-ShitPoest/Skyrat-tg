@@ -96,3 +96,13 @@
 	build_path = /obj/item/organ/internal/cyberimp/arm/lighter
 	category = list(RND_CATEGORY_CYBERNETICS + RND_SUBCATEGORY_CYBERNETICS_IMPLANTS)
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SERVICE
+
+/datum/design/sensordevice
+	name = "Handheld Crew Monitor"
+	desc = "A miniature machine that tracks suit sensors across the station."
+	id = "sensordevice"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 3000, /datum/material/glass = 1500, /datum/material/gold = 500)
+	build_path = /obj/item/device/sensor_device
+	category = list("Medical Designs")
+	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL

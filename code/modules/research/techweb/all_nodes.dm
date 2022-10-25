@@ -428,6 +428,7 @@
 	prereq_ids = list("biotech")
 	design_ids = list(
 		"crewpinpointer",
+		"sensordevice",
 		"defibrillator_compact",
 		"detective_scanner",
 		"harvester",
